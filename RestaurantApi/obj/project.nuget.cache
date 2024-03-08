@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MKDpHUjFroBo9dyEINif/jEE2ZJl9zoRrs7TPddsjOBJqomH5UVc1+seWBRkrbSO73S/0vpbUqGNFDMint+VtQ==",
+  "dgSpecHash": "Vxontn6NrWKtoOrmea60cMHI9znwP0mGSNXQ7i89PkOuodAmUUCFnEicCLSxjNVtxyu47xYvo/XI2xsxeuQeJw==",
   "success": true,
   "projectFilePath": "/home/anna/Documentos/RestaurantApi/RestaurantApi/RestaurantApi.csproj",
   "expectedPackageFiles": [
     "/home/anna/.nuget/packages/json.net/1.0.33/json.net.1.0.33.nupkg.sha512",
+    "/home/anna/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/anna/.nuget/packages/sqlite/3.13.0/sqlite.3.13.0.nupkg.sha512"
   ],
   "logs": []
