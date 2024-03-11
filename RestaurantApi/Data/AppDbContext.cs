@@ -7,7 +7,7 @@ namespace RestaurantApi.Data{
 
     public class AppDbContext : DbContext
     {
-        DbSet<Order>? orders {get; set;}
+        public DbSet<Order> Orders {get; set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
         => optionsBuilder.UseSqlite("DataSource = app.db; Cache = Shared");
