@@ -1,22 +1,19 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore; 
 
 namespace RestaurantApi.Models
 {
-    public class Order(){
+    public class Order{
+        
+        [Key]
+        public long Id {get; set;}
+        public double Price  {get; set;}
 
-        private long Id {get; set;}
-        private double Price  {get; set;}
-        private DateTimeOffset Moment {get; set;}
-        private OrderStatus orderStatus {get; set;}
+        public DateTime Date { get; set; } = DateTime.Now;
 
-        private Payment payment {get; set;}
+        private Payment? Payment {get; set;}
 
-        private Payment setPayment(Payment payment)
-        {
-            if(payment == null){
-            throw new NullReferenceException();    
-            }
-            return payment;
-        }
+        private OrderStatus OrderStatus {get; set;}
     }
 }

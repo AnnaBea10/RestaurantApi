@@ -1,0 +1,150 @@
+{
+    "categories": [
+        {
+            "name": "Pratos",
+            "items":[
+        {
+            "name": "Feijoada",
+            "price": 32.00
+        },
+        {
+            "name": "Cuscuz com carne seca",
+            "price": 25.00
+        },
+        {
+            "name": "Parmegiana",
+            "price": 30.00
+        },
+        {
+            "name": "Moqueca de cação",
+            "price": 35.00
+        },
+        {
+            "name": "Manjubinha",
+            "price": 30.00
+        },
+        {
+            "name": "Baião de dois",
+            "price": 35.00
+        },
+        {
+            "name": "Filé com fritas",
+            "price": 25.00
+        }
+        ]
+        },
+        {
+            "name": "Porções",
+            "items":[
+                {
+                    "name": "Queijo coalho empanado com geleia de pimenta",
+                    "price": 38.00
+                },
+                {
+                    "name": "Dadinho de tapioca com geleia de pimenta",
+                    "price": 38.00
+                },
+                {
+                    "name": "Batata frita",
+                    "price": 39.00                    
+                },
+                {
+                    "name": "Macaxeira frita",
+                    "price": 39.00
+                },
+                {
+                    "name": "Tripa de porco frita com farofa",
+                    "price": 40.00
+                }
+            ]
+        },
+        {
+            "name": "Bebidas",
+            "items":[
+                {
+                    "name": "Água (sem gás)",
+                    "price": 4.00
+                },
+                {
+                    "name": "Água (com gás)",
+                    "price": 5.00
+                },
+                {
+                    "name": "Água tônica",
+                    "price": 5.98
+                },
+                {
+                    "name": "Sucos",
+                    "items":[
+                        {
+                            "name": "Laranja",
+                            "price": 6.00
+                        },
+                        {
+                            "name": "Limão",
+                            "price": 6.00
+                        },
+                        {
+                            "name": "Abacaxi",
+                            "price": 6.00
+                        },
+                        {
+                            "name": "Maracujá",
+                            "price": 6.00
+                        },
+                        {
+                            "name": "Morango",
+                            "price": 6.00
+                        }
+                    ] 
+                },
+                {
+                    "name":"Doses alcóolicas",
+                    "items":[
+                        {
+                            "name": "Umburana",
+                            "price": 2.00
+                        },
+                        {
+                            "name": "Carqueiro",
+                            "price": 2.00
+                        },
+                        {
+                            "name": "Jatobá",
+                            "price": 2.00
+                        },
+                        {
+                            "name": "Aroeira",
+                            "price": 2.00
+                        },
+                        {
+                            "name": "Quebra-facão",
+                            "price": 2.00
+                        }
+                    ]
+                },
+                {
+                    "name":"Refrigerantes",
+                    "items":[
+                        {
+                            "name": "Coca-cola",
+                            "price": 3.00
+                        },
+                        {
+                            "name": "Fanta uva",
+                            "price": 2.60
+                        },
+                        {
+                            "name": "Fanta laranja",
+                            "price": 2.60
+                        },
+                        {
+                            "name": "Guaraná",
+                            "price": 3.00
+                        }
+                    ]
+                }
+            ]
+        }         
+    ]
+}
